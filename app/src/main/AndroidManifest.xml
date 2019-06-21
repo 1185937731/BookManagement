@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ccnu.bookmanagement">
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.AddReaderActivity" />
+        <activity android:name=".activity.BorrowActivity" />
+        <activity android:name=".activity.AddBookActivity" />
+        <activity android:name=".activity.ReturnActivity" />
+        <activity android:name=".activity.ReaderListActivity" />
+        <activity android:name=".activity.BookListActivity" />
+        <activity android:name=".activity.TypeActivity" />
+        <activity android:name=".activity.StatisticActivity" />
+        <activity android:name=".activity.ModifyBookTypeActivity" />
+        <activity android:name=".activity.ModifyReaderTypeActivity" />
+        <activity android:name=".activity.AddBookTypeActivity" />
+        <activity android:name=".activity.AddReaderTypeActivity" />
+        <activity android:name=".activity.ModifyReaderActivity" />
+        <activity android:name=".activity.ReaderBorrowInfoActivity" />
+        <activity android:name=".activity.ModifyBookActivity"></activity>
+    </application>
+
+</manifest>

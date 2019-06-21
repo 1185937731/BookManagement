@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<litepal>
+    <dbname value="BookManager"></dbname>
+    <version value='8'></version>
+    <list>
+        <mapping class="com.ccnu.bookmanagement.bean.Reader"></mapping>
+        <mapping class="com.ccnu.bookmanagement.bean.ReaderType"></mapping>
+        <mapping class="com.ccnu.bookmanagement.bean.Book"></mapping>
+        <mapping class="com.ccnu.bookmanagement.bean.BookType"></mapping>
+        <mapping class="com.ccnu.bookmanagement.bean.Borrow"></mapping>
+        <mapping class="com.ccnu.bookmanagement.bean.ReaderBorrowInfo"></mapping>
+    </list>
+</litepal>

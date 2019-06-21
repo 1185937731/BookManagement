@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:titleTextColor="#ffffff"
+        />
+
+    <TextView
+        android:id="@+id/tv_topinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="10dp"
+        android:text="欢迎您进入图书管理系统!"
+        android:textSize="15sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/add_reader"
+            style="@style/TextViewStyle"
+            android:drawableTop="@drawable/ic_add_reader"
+            android:text="添加读者" />
+
+        <TextView
+            android:id="@+id/borrow"
+            style="@style/TextViewStyle"
+            android:drawableTop="@drawable/ic_borrow_round"
+            android:text="借书" />
+
+        <TextView
+            android:id="@+id/add_book"
+            style="@style/TextViewStyle"
+            android:drawableTop="@drawable/ic_add_book"
+            android:text="添加书籍" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/reader_list"
+            style="@style/TextViewStyle"
+            android:drawableTop="@drawable/ic_reader_list"
+            android:text="读者信息管理" />
+
+        <TextView
+            android:id="@+id/return_book"
+            style="@style/TextViewStyle"
+            android:drawableTop="@drawable/ic_return"
+            android:text="还书" />
+
+        <TextView
+            android:id="@+id/query_book"
+            style="@style/TextViewStyle"
+            android:drawableTop="@drawable/ic_query_book"
+            android:text="书籍信息管理" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/type"
+            style="@style/TextViewStyle"
+            android:drawableTop="@drawable/ic_type_rect"
+            android:text="类型信息管理" />
+
+        <TextView
+            android:id="@+id/stastic"
+            style="@style/TextViewStyle"
+            android:drawableTop="@drawable/ic_statistic"
+            android:text="数据统计" />
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="140dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
